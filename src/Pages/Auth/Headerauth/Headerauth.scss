@@ -1,0 +1,118 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.border_bottom_header
+{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid lightgray;
+    border-style: dashed;
+  
+}
+
+
+
+.img_width
+{
+    width: 9%;
+}
+
+.background_color_header_public11
+{
+    background-color: rgba(255, 255, 255, 0);
+    color: black;
+}
+
+.logo_width
+{
+    width: 65%;
+}
+
+.font_header
+{
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.input_style
+{
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input_style:focus
+{
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input_style::placeholder
+{
+   color: white;
+}
+
+.navigation_for_mobile
+{
+    display: none;
+}
+@media screen and (max-width: 780px) {
+  
+        .padding_mobile
+        {
+            padding-left: 0;
+            padding-right: 0;
+            padding-top: 5%;
+            padding-bottom: 45%;
+        }
+
+    .header_height
+    {
+     padding-top: 20%;
+    }
+    .card_display
+    {
+        display: none;
+    }
+    .margin_auto_col8
+{
+    display: none;
+}
+
+.padding_adjustments_landingpage
+{
+    padding-top: 10%;
+    padding-bottom: 50%;
+}
+.padding_top_mobile
+{
+    padding-top: 8%;
+}
+
+.padding_for_every_step
+{
+    padding-top: 5%;
+}
+
+.mobile_picture_landing_1
+{
+    display: none;
+}
+ 
+.navigation_for_laptop
+{
+    display: none;
+}
+.navigation_for_mobile
+{
+    display: block;
+}
+.logo_width_for_mobile
+{
+    width: 20%;
+}
+   }

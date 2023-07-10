@@ -1,0 +1,174 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+.btn_profile_advisor
+{
+    border: 1px solid lightgray;
+    background-color: $white;
+}
+
+.button_back
+{
+    background-color: white;
+    border: none;
+    font-size: 12px;
+    font-weight: $font-weight-600
+}
+
+.button_fav
+{
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    color: $blue;
+    font-weight: $font-weight-600
+}
+.button_adv
+{
+    background-color: white;
+    border: none;
+    font-size: 13px;
+    color: $gray;
+    font-weight: $font-weight-600
+}
+
+.img_width_advisor_profile
+{
+    width: 80%;
+}
+
+.h6_advisor_profile
+{
+    font-size: 90%;
+    font-weight: $font-weight-500;
+}
+
+.trofee
+{
+    color: $blue;
+}
+
+.font_subtitle_advisor_profile
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: $gray;
+}
+
+.btn_link_style
+{
+    background-color: white;
+    border: 1px solid lightgray !important;
+    border-radius: 10px;
+    color: gray;
+     
+}
+
+.background_profile
+{
+    background-color: #F8F8F9;
+    border: 1px dashed lightgray;
+    border-radius: 5px;
+}
+
+.btn_send_profile
+{
+    background-color: #39CF10;
+}
+
+.title_profile_card
+{
+    font-weight: bolder;
+}
+
+.subtitle_profile_card
+{
+    font-size: 12px;
+    color: gray;
+    font-weight: 700;
+}
+.label_profile
+{
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+}
+
+.text_field
+{
+    resize: none;
+    height: 13vh !important ;
+    border-style: dashed;
+}
+
+.btn_style_contact
+{
+    background-color: #25224A;
+    width: 100%;
+    margin-top: 4%;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.arrow_profile
+{
+    color: #39CF10;
+    font-size: 12px !important;
+}
+
+.bacground_rating_profile
+{
+    background-color: #F8F8FA;
+    border-radius: 10px;
+}
+
+.heading_rating_card
+{
+    font-size: 65%;
+    font-weight: 600;
+    color: gray;
+}
+
+.subheading_rating_card
+{
+    font-size: 90%;
+    font-weight: 600;
+    color: $blue;
+}
+
+.subheading_rating_card1
+{
+    font-size: 90%;
+    font-weight: 600;
+    color: black;
+}
+
+.heading_rating_card2
+{
+    font-size: 65%;
+    font-weight: 600;
+    color: black;
+}
+
+.heading_rating_card3
+{
+    font-size: 90%;
+    font-weight: 900;
+    color: $blue !important;
+}
+
+.short_bio
+{
+    font-size: 90%;
+    font-weight: 600;
+}
+
+.subheading_rating_card5
+{
+    font-size: 70%;
+    font-weight: 600;
+    color: $blue;  
+}

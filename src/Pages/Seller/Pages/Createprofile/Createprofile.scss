@@ -1,0 +1,97 @@
+.background-create-profile
+{
+    background-color: #F7F8FB;
+    overflow-x: hidden !important;
+}
+
+.btn-style-create
+{
+    background-color: white;
+    border: 1px solid lightgray;
+}
+
+.btn-font-style
+{
+    font-size: 110%;
+    font-weight: 700;
+}
+
+.background_card_create
+{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.btnn {
+    border: 1px dashed lightgray;
+    color: gray;
+    background-color: white;
+    padding: 9px 30px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    width: auto;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+
+  }
+
+  .img_radius_check
+  {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 105px;
+    width: 105px;
+  }
+
+  .label_size
+  {
+    font-size: 70%;
+  }
+
+  .button_cancel_create
+  {
+    font-size: 90%;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .button_cancel_create1
+  {
+    font-size: 90%;
+    color: white;
+    background-color: #25224B;
+    border: 1px solid lightgray;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+
+  .textarea-create
+  {
+    height: 10vh !important;
+    resize: none;
+    border: 1px dashed lightgray;
+  }
+
+  .textarea-create::placeholder
+  {
+font-size: 80%;
+color: gray;
+  }

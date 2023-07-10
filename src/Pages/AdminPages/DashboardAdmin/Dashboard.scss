@@ -1,0 +1,237 @@
+.card_style {
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.479);
+    border-radius: 5px;
+    border: 1px dashed lightgray;
+}
+
+.advisor_icon {
+    font-size: 190%;
+    color: #0575E6;
+}
+
+.color_gray {
+    color: gray;
+}
+
+.padding_admin {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#font_square_pending {
+    color: rgb(218, 40, 129);
+}
+
+#font_square_pending1 {
+    color: rgb(236, 225, 23);
+}
+
+#font_square_pending3 {
+    color: rgb(10, 209, 69);
+}
+
+.font_sixe_pending {
+    font-size: 80%;
+}
+
+.background_color_white {
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding-top: 2%;
+    border-radius: 5px;
+    height: 62vh;
+    overflow-y: scroll;
+
+}
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #26CDE9;
+}
+
+.background_card_pending {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.background_badge_color {
+    background-color: #16CAEA;
+    color: black;
+}
+
+
+///////////////////////////////////////////////////
+
+.background_white_color {
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+
+.active_tab {
+    color: #16caea;
+    cursor: pointer;
+}
+
+.non_active_tab {
+    color: #ccd2d8;
+    cursor: pointer;
+}
+
+.height_fix_list {
+    height: 71vh;
+}
+
+.height_of_image1 {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.background_accept {
+    background-color: #d0feefd9;
+    color: #1ce0a3;
+    border: 1px solid #d0feefd9;
+}
+
+.background_accept:hover {
+    background-color: #a9f8ded9;
+    color: #1ce0a3;
+    border: 1px solid #a9f8ded9;
+}
+
+.background_accept:focus {
+    background-color: #a9f8ded9;
+    color: #1ce0a3;
+    border: 1px solid #a9f8ded9;
+}
+
+.background_reject {
+    background-color: #ffd5d5;
+    color: #e35959;
+    border: 1px solid #ffd5d5;
+}
+
+.background_reject:hover {
+    background-color: #ffbfbf;
+    color: #e35959;
+    border: 1px solid #ffbfbf;
+}
+
+.background_reject:focus {
+    background-color: #ffbfbf;
+    color: #e35959;
+    border: 1px solid #ffbfbf;
+}
+
+.text_fot_left {
+    color: #222b2c;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.text_fot_left1 {
+    color: #a7a7a7;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.text_fot_left2 {
+    color: #ec652a;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.border_radius_div {
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 20vh;
+}
+
+.border_radius_div_auto {
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: auto;
+}
+
+.text_style_balance {
+    color: #a7a7a7;
+    font-size: 12px;
+}
+
+.text_style_balance11 {
+    color: #222b2c;
+    font-size: 30px;
+}
+
+.text_style_balance10 {
+    color: #222b2c;
+    font-size: 20px;
+}
+
+.font_pkr {
+    font-size: 16px;
+}
+
+.font_sixze {
+    font-size: 10px !important;
+}
+
+.bg_second_section {
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 60vh;
+    margin-top: 2%;
+    background-color: white;
+    padding-top: 1%;
+}
+
+.img_width_control {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 3px solid #0575E6;
+    box-shadow: 1px 1px 7px 7px lightgray;
+}
+
+.link_style {
+    text-decoration: none;
+}
+
+.bounce-effect {
+    animation: bounce 2s infinite !important;
+    /* Apply bounce animation for 0.5 seconds infinitely */
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1);
+        /* Initial state */
+    }
+
+    50% {
+        transform: scale(1.2);
+        /* Bounce state */
+    }
+
+    100% {
+        transform: scale(1);
+        /* Return to initial state */
+    }
+}

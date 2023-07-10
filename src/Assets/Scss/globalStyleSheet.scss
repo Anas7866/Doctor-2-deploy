@@ -1,0 +1,19 @@
+@import "./veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+body {
+  font-family: $font-family !important;
+  font-size: $font-16;
+  // color: $light-gray;
+}
+.errorMessage {
+  font-size: $font-12;
+  color: $red;
+  line-height: 18px;
+  text-align: left;
+}
+
+// .border-scss
+// {
+//   background-color: $red;
+// }

@@ -1,0 +1,61 @@
+.sidenav_hight_fixed {
+    height: 100vh;
+    position: relative;
+}
+
+.size_font_dashboard {
+    font-size: 20px;
+}
+
+.background_color_tab_active {
+    background-color: #e1faff;
+    color: #16caea;
+    border-radius: 5px;
+}
+
+.background_color_tab_notactive {
+    background-color: white;
+    color: #a7a7a7;
+    border-radius: 5px;
+    transition: 0.9s;
+    cursor: pointer;
+}
+
+.background_color_tab_notactive:hover {
+    background-color: rgb(233, 228, 228);
+}
+
+.background_color_tab_notactive_end {
+    background-color: white;
+    color: #a7a7a7;
+    border-radius: 5px;
+    transition: 0.9s;
+    cursor: pointer;
+    position: absolute;
+    bottom: 0;
+    z-index: 1000000;
+}
+
+.dashboard_bold_active {
+    font-weight: 500;
+}
+
+.link_style {
+    text-decoration: none;
+    color: #16caea;
+}
+
+.link_style_noneactive {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.link_style_noneactive:hover {
+    color: #a7a7a7;
+    text-decoration: none;
+}
+
+.link_style:hover {
+    text-decoration: none;
+    color: #16caea;
+}

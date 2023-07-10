@@ -1,0 +1,32 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+.border_footer
+{
+    border-top: 1px dashed gray;
+}
+
+
+.heading_rating_card
+{
+    font-size: 65%;
+    font-weight: 600;
+    color: gray;
+}
+
+.heading_rating_card1
+{
+
+    font-weight: 600;
+    color: black;
+}
+
+.footerseller {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: white;
+    text-align: center;
+  }

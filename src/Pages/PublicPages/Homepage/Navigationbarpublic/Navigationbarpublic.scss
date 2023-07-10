@@ -1,0 +1,82 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.background_color_header_public {
+    background-color: $darkblue;
+    color: white;
+    padding-top: 5%;
+}
+
+.background_color_header_public112 {
+    background-color: $darkblue ;
+    color: white;
+    position: fixed;
+    z-index: 111;
+}
+
+.img_avatar_set {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.logo_width {
+    width: 65%;
+    cursor: pointer;
+}
+
+.font_header {
+    font-size: 110%;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.input_style {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input_style:focus {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: white;
+}
+
+.input_style::placeholder {
+    color: white;
+}
+
+.width_bell {
+    width: 15%;
+}
+
+.dropdown_mob {
+    display: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .cutome_margin {
+        padding-top: 30% !important;
+    }
+
+    .logo_width_for_mobile {
+        width: 35%;
+        cursor: pointer;
+    }
+
+    .dropdown_mob {
+        position: absolute;
+        background-color: #142664;
+        height: 100vh;
+        overflow: hidden !important;
+        left: 0;
+        z-index: 12;
+    }
+
+    .dropdown_mob {
+        display: block;
+    }
+}

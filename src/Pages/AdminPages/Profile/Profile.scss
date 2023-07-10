@@ -1,0 +1,40 @@
+.background_card_one {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 40vh;
+}
+
+.background_card_one1 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: auto;
+}
+
+.height_of_image {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: 2px solid white;
+}
+
+.text_gray {
+    color: gray;
+    font-size: 14px;
+}
+
+.button_avaliable {
+    border: 1px solid #16caea;
+    color: #16caea;
+}
+
+.color_left {
+    color: #a7a7a7;
+}
+
+.color_right {
+    color: #323c45;
+}

@@ -1,0 +1,111 @@
+.background_image
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px dashed lightgray;
+ 
+}
+
+.progress_style
+{
+    height: 0.5vh;
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.icon_calender
+{
+    color: #3E50F7;
+    font-size: 150%;
+}
+
+.progress_color
+{
+    background-color: #3E50F7 !important;
+}
+
+.badge_color
+{
+    color: gray;
+    background-color: rgba(211, 211, 211, 0.611);
+}
+
+.font_card
+{
+    font-size: 90%;
+}
+
+.color_percentage
+{
+    color: #3E50F7;
+}
+
+.para_color
+{
+    color: gray;
+    font-size: 80%;
+}
+
+.button_style_listing1
+{
+    font-size: 70%;
+    background-color: white;
+    border: 1px solid gray;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    color: gray !important;
+}
+.button_style_listing1:hover
+{
+    font-size: 70%;
+    background-color: white;
+    border: 1px solid gray;
+    border-top-left-radius: 1px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 100%;
+    color: gray !important;
+    box-shadow: 4px 4px 7px 7px rgba(128, 128, 128, 0.101);
+}
+
+.right_icon
+{
+    color: #A3FF8A;
+}
+.react-multiple-carousel__arrow--right
+{
+    margin-top: 22% !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+    padding-left: 100px !important;
+
+}
+.react-multiple-carousel__arrow--right::before
+{   
+    font-size: 100% !important;
+    padding: 0px !important;
+    color: black !important;
+    font-weight: 900 !important;
+}
+
+.react-multiple-carousel__arrow--left
+{
+    margin-top: 22% !important;
+    background-color: rgba(255, 0, 0, 0) !important;
+    padding-right: 100px !important;
+
+}
+
+.react-multiple-carousel__arrow--left::before
+{   
+    font-size: 100% !important;
+    padding: 0px !important;
+    color: black !important;
+    font-weight: 900 !important;
+}
+

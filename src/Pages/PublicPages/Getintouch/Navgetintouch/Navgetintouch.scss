@@ -1,0 +1,85 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+
+.background_color_header_public1122 {
+    color: #222b2c;
+    position: fixed;
+    background-color: #F4F6F7;
+    z-index: 111;
+}
+
+.logo_width {
+    width: 65%;
+}
+
+.font_header {
+    font-size: 110%;
+    font-weight: 600;
+}
+
+.input_style11 {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: #222b2c;
+    border: 1px solid #222b2c;
+}
+
+.input_style11:focus {
+    background-color: rgba(255, 255, 255, 0);
+    outline: none;
+    box-shadow: none;
+    color: #222b2c;
+    border: 1px solid #222b2c;
+}
+
+.input_style11::placeholder {
+    color: #222b2c;
+}
+
+.width_bell11 {
+    width: 20%;
+    color: #222b2c;
+}
+
+.navigation_for_mobile {
+    display: none;
+}
+
+.dropdown_mob {
+    display: none;
+}
+
+@media screen and (max-width: 780px) {
+    .navigation_for_laptop {
+        display: none;
+    }
+
+    .navigation_for_mobile {
+        display: block;
+    }
+
+    .logo_width_for_mobile {
+        width: 30%;
+    }
+
+    .logo_width_for_mobile {
+        width: 35%;
+        cursor: pointer;
+    }
+
+    .dropdown_mob {
+        position: absolute;
+        background-color: #142664;
+        height: 100vh;
+        overflow: hidden !important;
+        left: 0;
+        z-index: 12;
+    }
+
+    .dropdown_mob {
+        display: block;
+    }
+}

@@ -1,0 +1,80 @@
+.background_main11 {
+    background-image: url(../../../Assets/Images/landbackground.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.padding_top_getintouch {
+    padding-top: 5%;
+}
+
+.line_width {
+    width: 10%;
+    height: 5px;
+    border-radius: 20px;
+}
+
+.img_avatar_set {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.362);
+}
+
+
+.color_para {
+    color: #6e6e6e;
+    line-height: 30px;
+}
+
+.input_area_one {
+    background-color: #f4f6f7;
+    color: #ccd2d8;
+    border: 1px solid #f4f6f7;
+    border-radius: 10px;
+    resize: none;
+}
+
+.input_area_one:hover {
+    background-color: #f4f6f7;
+    color: #ccd2d8;
+    border: 1px solid #f4f6f7;
+    border-radius: 10px;
+}
+
+.input_area_one:focus {
+    background-color: #f4f6f7;
+    color: #ccd2d8;
+    border: 1px solid #f4f6f7;
+    border-radius: 10px;
+}
+
+.input_area_one::placeholder {
+    color: #ccd2d8;
+}
+
+.background_button_getin {
+    background-color: #16caea;
+    border: 1px solid #16caea;
+    border-radius: 10px;
+    width: 20%;
+}
+
+.background_white_color {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 10px;
+}
+
+.padding_set_custome {
+    padding-top: 5% !important;
+}
+
+@media screen and (max-width: 780px) {
+    .background_button_getin {
+        background-color: #16caea;
+        border: 1px solid #16caea;
+        border-radius: 10px;
+        width: 100%;
+    }
+
+}

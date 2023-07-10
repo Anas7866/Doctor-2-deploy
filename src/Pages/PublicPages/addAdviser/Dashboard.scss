@@ -1,0 +1,83 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.button_landing {
+  width: auto !important;
+}
+
+.button_landing1 {
+  background-color: white !important;
+  width: auto !important;
+  border: 1px solid #0575e6 !important;
+  color: #0575e6 !important;
+}
+
+.padding_dashboard {
+  padding-top: 9%;
+}
+
+.landing_dashboard {
+  font-size: $font-144;
+  color: $lightgray !important;
+  font-weight: $font-weight-500;
+}
+
+.select_field_style
+{
+  border-radius: 2px !important;
+ 
+}
+
+.border_datepicker
+{
+  // background-color: red !important;
+  border-style: dashed !important;
+  padding: 6px  !important;
+  height: 44px !important;
+}
+
+
+
+.react-date-picker__wrapper 
+{
+  border: 0px solid white !important;
+
+  
+}
+
+.chose_field
+{
+  border-style: dashed !important;
+  padding-bottom: 37px !important;
+}
+
+.button_style_login
+{
+  border-top-left-radius: 1px !important;
+  border-top-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+  border-bottom-right-radius: 10px !important;
+  background-color: #25224A;
+}
+
+.border_add_advisor
+{
+  border: 1px dashed lightgray;
+  border-radius: 5px;
+}
+
+
+@media screen and (max-width: 1000px) {
+  .landing_dashboard {
+    font-size: $font-28;
+    color: $lightgray !important;
+    font-weight: $font-weight-500;
+    padding-right: 29px !important;
+    padding-top: 10px;
+  }
+  .padding_dashboard {
+    padding-top: 79%;
+    overflow: hidden;
+    padding-left: 7%;
+  }
+}

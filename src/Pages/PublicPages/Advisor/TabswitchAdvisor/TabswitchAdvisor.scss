@@ -1,0 +1,25 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.padding_advisor
+{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.MuiTab-textColorPrimary 
+{
+    font-weight: $font-weight-900 !important;
+    text-transform: capitalize !important; 
+}
+
+.css-1gsv261
+{
+    border-bottom-style: dashed !important;
+}
+
+.css-19kzrtu
+{
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}

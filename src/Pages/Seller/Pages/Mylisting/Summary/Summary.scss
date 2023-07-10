@@ -1,0 +1,167 @@
+.background_summary
+{
+    background-color: white;
+    border-radius: 5px;
+    border: 1px dashed lightgray;
+}
+
+.para_summary
+{
+    font-size: 70%;
+    color: gray;
+}
+
+.badge_draft_style
+{
+    background-color: #EFEFF3;
+    color: gray;
+}
+
+.button_draft_style
+{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+}
+
+.button_draft_style:hover
+{
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    box-shadow: 5px 5px 5px 5px rgba(128, 128, 128, 0.1);
+}
+
+.para_option
+{
+    color: black;
+    font-size: 80%;
+}
+
+.para1_option
+{
+    color: black;
+    font-size: 70%;
+}
+
+.dropdown-style
+{
+    border: 1px dashed lightgray;
+}
+
+.font-size-startup
+{
+    font-size: 90%;
+}
+
+.border_startup
+{
+    border: 1px dashed lightgray;
+    border-radius: 5px;
+}
+
+.font-size-startup1
+{
+    font-size: 70%;
+    color: gray;
+}
+
+.btn_start_style
+{
+    font-size: 90%;
+    background-color: white;
+    padding: 1%;
+    border: 1px solid lightgray;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.line_summary
+{
+    border: 1px dashed lightgray;
+}
+
+.gernal_setup
+{
+    font-size: 90%;
+}
+
+.gernal_setup1
+{
+    font-size: 80%;
+    color: blue;
+}
+
+.gernal_setup2
+{
+    font-size: 70%;
+    color: gray;
+}
+
+.gernal_setup3
+{
+    background-color: #F0F5FF;
+    border-left: 2px solid blue;
+}
+
+.gernal_setup4
+{
+    background-color: #F8F8F9;
+    border: 1px dashed lightgray;
+    margin-top: 3;
+    border-radius: 5px;
+}
+.btn_start_style1
+{
+    background-color: white;
+    border: white;
+    font-size: 90%;
+}
+.btn_start_style1:hover
+{
+    background-color: white;
+    border: white;
+}
+
+.btn_start_style5
+{
+    background-color: #25224A;
+    color: white;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.btn_start_style5:hover
+{
+    background-color: #25224A;
+    color: white;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.custom_text
+{
+    height: 13vh !important;
+    resize: none;
+    border: 1px dashed lightgray;
+}
+
+.custom_text::placeholder
+{
+    font-size: 90%;
+}
+
+.label_font
+{
+    font-size: 80%;
+}

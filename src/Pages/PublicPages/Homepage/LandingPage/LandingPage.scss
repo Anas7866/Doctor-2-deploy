@@ -1,0 +1,190 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.header_height {
+    background-color: #CBDAFF;
+    height: 100vh;
+}
+
+.img_height {
+    height: 100vh;
+    width: 90%;
+}
+
+.padding_nami_landing {
+    padding-left: 7%;
+    font-weight: 900;
+    font-size: 80%;
+    color: #46417A;
+}
+
+.heading_color_landing {
+    // font-weight: 900;
+    font-size: 300%;
+    color: #25224A;
+}
+
+.subheading_landing {
+    font-size: 115%;
+    font-weight: 500;
+}
+
+.fontSizejoin1 {
+    font-size: 110%;
+    font-weight: 900;
+    background-color: #25224B;
+    color: white;
+}
+
+.fontSizejoin2 {
+    font-size: 110%;
+    font-weight: 900;
+    color: #25224B;
+}
+
+.img_line {
+    width: 30%;
+    border-radius: 5px;
+}
+
+.img_line1 {
+    width: 15%;
+    border-radius: 5px;
+}
+
+.color_sub_heading {
+    color: rgb(133, 133, 133);
+    line-height: 200%;
+    word-spacing: 2px !important;
+}
+
+.color_sub_heading11 {
+    color: white;
+    padding-top: 10%;
+    line-height: 160%;
+}
+
+.button_info_download {
+    background-color: rgb(22, 202, 235);
+    padding-top: 4%;
+    padding-bottom: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+    border-radius: 20px;
+}
+
+.global_color_text {
+    font-size: 170%;
+    margin-bottom: 1%;
+    font-weight: 600;
+}
+
+.margin_auto_col8 {
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
+
+.img_padding_top_sec_2 {
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.background_section_2 {
+    background-color: white;
+    border-top-right-radius: 70px;
+    margin-top: -140px;
+}
+
+.color_text_sub_heading_sec_2 {
+    color: gray;
+    padding-top: 3%;
+    line-height: 160%;
+}
+
+.btn_style_icons_button {
+    background-color: rgb(22, 202, 235);
+    height: 60px;
+    width: 60px;
+}
+
+
+.background_main {
+    background-image: url(../../../../Assets/Images/landbackground.png);
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden !important;
+}
+
+.icons_land {
+    font-size: 160%;
+}
+
+.padding_setting_section2 {
+    padding-right: 15%;
+}
+
+.global_color_text {
+    color: gray;
+}
+
+.color_last_section {
+    color: black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    border-radius: 20px;
+}
+
+.logo_width_last_sec {
+    width: 10%;
+}
+
+.navigation_for_mobile {
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    .header_height {
+        padding-top: 20%;
+    }
+
+    .card_display {
+        display: none;
+    }
+
+    .margin_auto_col8 {
+        display: none;
+    }
+
+    .padding_adjustments_landingpage {
+        padding-top: 30%;
+        padding-bottom: 50%;
+    }
+
+    .padding_top_mobile {
+        padding-top: 8%;
+    }
+
+    .padding_for_every_step {
+        padding-top: 5%;
+    }
+
+    .mobile_picture_landing_1 {
+        display: block;
+    }
+
+    .navigation_for_laptop {
+        display: none;
+    }
+
+    .navigation_for_mobile {
+        display: block;
+    }
+
+    .logo_width_for_mobile {
+        width: 20%;
+    }
+
+    .logo_width_last_sec {
+        width: 20%;
+    }
+}

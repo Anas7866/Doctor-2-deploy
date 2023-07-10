@@ -1,0 +1,70 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+.drodown_shadow
+{
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.309);
+    border: none;
+    border-radius: 10px;
+}
+
+.button_sort_style
+{
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-style: dashed;
+    font-size: 80%;
+}
+.button_sort_style:hover
+{
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-style: dashed;
+    font-size: 80%;
+}
+.button_sort_style:focus
+{
+    border-radius: 10px;
+    background-color: white;
+    color: gray;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    border-style: dashed;
+    font-size: 80%;
+}
+.filters_margin
+{
+    margin-top: 2%;
+}
+
+.button_search
+{
+    border-style: dashed !important;
+    border-top: 1px solid gray;
+    border-left: 1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: none !important;
+    background-color: white !important;
+    color: gray;
+}
+
+.input_search
+{
+    border-style: dashed !important;
+    border-top: 1px solid gray;
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}

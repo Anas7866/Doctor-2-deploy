@@ -1,0 +1,51 @@
+@import "../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+.border_bottom_header
+{
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 1px solid lightgray;
+    border-style: dashed;
+    background-color: white;
+}
+
+.img_width
+{
+    width: 80%;
+}
+
+.font_header_admin
+{
+    font-size: 80%;
+    font-weight: $font-weight-800;
+}
+
+
+.font_header_admin1
+{
+    font-size: 80%;
+    font-weight: $font-weight-800;
+    color: $blue !important;
+}
+
+.button_profile
+{
+    background-color: #EDECFF;
+    color: #3E50F7;
+    border-color: #EDECFF;
+}
+
+
+
+@media screen and (max-width: 980px) 
+{
+
+    .img_width
+{
+    width: 30%;
+}
+
+
+  }

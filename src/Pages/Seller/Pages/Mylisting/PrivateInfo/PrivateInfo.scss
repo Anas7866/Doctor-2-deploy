@@ -1,0 +1,113 @@
+.private_background
+{
+    background-color: white;
+    border: 1px dashed lightgray;
+    border-radius: 5px;
+}
+
+
+.border_switch
+{
+    border: 1px dashed lightgray;
+    border-radius: 10px;
+}
+
+.font_para_info
+{
+    font-size: 70%;
+}
+
+.dashed_border
+{
+    border: 1px dashed lightgray !important;
+}
+
+.font_seller_details
+{
+    font-size: 90%;
+}
+
+.background_about_your
+{
+    border: 1px dashed lightgray;
+    border-radius: 5px;
+}
+
+.font_seller_details1
+{
+    font-size: 60%;
+    color: gray;
+}
+
+.font_profile_arrow
+{
+    font-size: 90%;
+    background-color: white;
+    border: 1px dashed lightgray;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.font_seller_details4
+{
+    font-size: 80%;
+    color: gray;
+    cursor: pointer;
+}
+
+.startup_text
+{
+    font-size: 70%;
+    color: gray;
+}
+
+.startup_text1
+{
+    font-size: 100%;
+    color: blue;
+    cursor: pointer;
+}
+
+.link_icom
+{
+    font-size: 50%;
+    color: blue;
+    cursor: pointer;
+}
+
+
+
+.btnn {
+    border: 2px solid #F8F8F9;
+    color: gray;
+    background-color: #F8F8F9;
+    padding: 18px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.35);
+  }
+
+  .btnn:hover
+   {
+    border: 2px solid #F8F8F9;
+    color: gray;
+    background-color: #F8F8F9;
+    padding: 18px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+   
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }

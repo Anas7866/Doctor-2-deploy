@@ -1,0 +1,163 @@
+@import "../../../../Assets/Scss/veriables.scss";
+@import "~react-pro-sidebar/dist/scss/styles.scss";
+
+
+.font_advisor
+{
+    font-size: 80%;
+    color: gray;
+}
+
+.color_black_advs
+{
+    color: black;
+}
+
+.card_style_advisor
+{
+    border-style: dashed !important;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #F8F8F9;
+}
+.card_style_advisor:hover
+{
+    transition: 0.9s !important;
+    border-style: dashed !important;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 7px 7px rgba(211, 211, 211, 0.337);
+}
+
+.linkedin_text
+{
+    color: $blue;
+    font-size: 80%;
+}
+
+.img_width_advisor
+{
+    height: 90px !important;
+    width: 90px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+
+.fontcolor_name
+{
+    color: black;
+    font-weight: 900 !important;
+}
+.fontcolor_name1
+{
+    color: black;
+    // font-weight: 900 !important;
+    font-size: 100% !important;
+}
+
+.background_badge
+{
+    background-color: #dbdada !important;
+}
+
+.font_subtitle_advisor
+{
+    font-size: 80%;
+    color: gray;
+}
+
+.font_subtitle_advisor1
+{
+    font-size: 70%;
+    color: gray;
+}
+
+.background_line
+{
+    background-color: lightgray;
+}
+
+.profile_advisor
+{
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: dashed !important;
+    border: 1px solid gray;
+    font-size: 80%;
+    color: #181646 !important;
+    font-weight: bold;
+
+}
+.profile_advisor:hover
+{
+    border-top-left-radius: 1px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: dashed !important;
+    border: 1px solid gray;
+    font-size: 80%;
+    color: #181646 !important;
+    font-weight: bold;
+    box-shadow: 3px 3px 4px 4px rgba(211, 211, 211, 0.523);
+    background-color: white !important;
+
+}
+
+.profile_advisor1
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: dashed !important;
+    border: 1px solid gray;
+    font-size: 80%;
+    color: #181646 !important;
+    font-weight: bold;  
+}
+.profile_advisor1:hover
+{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-style: dashed !important;
+    border: 1px solid gray;
+    font-size: 80%;
+    color: #181646 !important;
+    font-weight: bold;
+    box-shadow: 3px 3px 4px 4px rgba(211, 211, 211, 0.523);
+    background-color: white !important;
+}
+
+.width_ellipse
+{
+    white-space: nowrap; 
+  width: 290px !important;  
+  overflow: hidden;
+  text-overflow: ellipsis !important; 
+//   border: 1px solid #000000;
+}
+
+.trophy_icon
+{
+    color: $blue;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    .img_width_advisor
+    {
+        height: 40px !important;
+        width: 40px;
+        border-radius: 50px;
+        object-fit: cover;
+    } 
+ 
+   }

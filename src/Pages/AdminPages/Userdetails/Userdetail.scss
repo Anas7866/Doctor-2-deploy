@@ -1,0 +1,88 @@
+.background_color_white122 {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #26CDE9;
+}
+
+.background_color_white_fix_height {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: 40vh;
+    overflow-y: scroll !important;
+}
+
+.heading_color {
+    color: #323c45;
+}
+
+.image_width_setting {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: 2px solid white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+.custome_msg_button {
+    background-color: #16caea;
+    border: 1px solid #16caea;
+    width: 40%;
+    border-radius: 10px;
+}
+
+.color_gray {
+    color: #a7a7a7;
+}
+
+.background_text_msg {
+    background-color: #f4f6f7;
+    height: 30vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.ico_color {
+    color: #16caea;
+    font-size: 120%;
+}
+
+.upload_text_ico {
+    font-size: 120%;
+    color: #6e6e6e;
+}
+
+.upload_text {
+    font-size: 110%;
+    padding-left: 2%;
+    color: #6e6e6e;
+}
+
+.border_bottom_upload {
+    border-bottom: 1px solid lightgray;
+}
+
+.show_doc1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 5px;
+    border: 3px solid #0575E6;
+    box-shadow: 1px 1px 7px 7px lightgray;
+}
